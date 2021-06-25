@@ -140,3 +140,7 @@ h4 {
   margin-left: 10%;
   color: #243758;
 }
+
+.page-item:focus {
+  background: olive;
+}
