@@ -10,12 +10,12 @@ const Pagination = ({postsPerPage, totalPosts, paginate}) => {
     return (
         <>
         <nav aria-label="Page navigation example">
-            <ul className="pagination">
+            <ul className="pagination" style={{marginTop: '30px', marginLeft: '50px'}}>
 
                 {pageNumbers.map(number => { 
                     return(
                     <>
-                    <li key={number} className="page-item" style={{marginTop: '30px', marginLeft: '30px'}}>
+                    <li key={number} className="page-item" style={{marginTop: '30px', marginLeft: '10px'}}>
                         <a onClick={() => paginate(number)} href="!#" className="page-link">
                             {number}
                         </a>
