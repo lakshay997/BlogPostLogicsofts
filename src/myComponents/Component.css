@@ -141,6 +141,6 @@ h4 {
   color: #243758;
 }
 
-.page-item:focus {
-  background: olive;
+.page-link:active {
+  background: #be2664;
 }
