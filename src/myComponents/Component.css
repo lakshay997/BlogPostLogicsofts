@@ -1,0 +1,142 @@
+.btn-outline-dark:hover {
+  background-color: white;
+  color: #be2664;
+  border-color: white;
+}
+
+.btn-outline-dark {
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #be2664;
+  border-color: #be2664;
+}
+
+.btn-primary {
+  background-color: #be2664;
+  border-color: #be2664;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 5px 25px;
+}
+
+.btn-dark {
+  background-color: white;
+  border-color: #183c60;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 5px 25px;
+  color: black;
+}
+.btn-dark:hover {
+  background-color: #183c60;
+  color: white;
+  border-color: #183c60;
+}
+
+.section {
+  background-color: #24375b;
+  color: white;
+  margin: 10px 0px;
+  padding: 80px 0px;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+h4 {
+  margin-bottom: 50px;
+}
+
+.form-control {
+  padding: 20px 10px;
+  width: 500px;
+  font-size: 14pt;
+  border-radius: 35px 35px 35px 35px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonClass {
+  background-color: #be2664;
+  border-color: #be2664;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  color: white;
+  margin: 0px 20px;
+  padding: 20px 60px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.5s ease-out 100ms;
+}
+
+.buttonClass:after {
+  content: "\2794";
+  margin-left: 20px;
+}
+
+.buttonClass:hover {
+  background-color: white;
+  color: #be2664;
+  border-color: #be2664;
+}
+
+.buttonPrimary {
+  background-color: white;
+  border-color: #be2664;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 130px;
+  padding: 5px 0px;
+  margin-left: 20px;
+}
+
+.buttonPrimary:hover {
+  background-color: #be2664;
+  color: white;
+  border-color: #be2664;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.logo {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+}
+
+.author {
+  margin-top: 10px;
+  margin-left: 10%;
+  color: #243758;
+}

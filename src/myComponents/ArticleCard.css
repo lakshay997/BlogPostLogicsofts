@@ -1,0 +1,34 @@
+.btn-outline-edit {
+  color: #000;
+  border-color: #000;
+}
+.btn-outline-edit:hover {
+  color: #fff;
+  background-color: #71c9ce;
+  border-color: #71c9ce;
+}
+.btn-check:focus + .btn-outline-edit,
+.btn-outline-edit:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+.btn-check:active + .btn-outline-edit,
+.btn-check:checked + .btn-outline-edit,
+.btn-outline-edit.active,
+.btn-outline-edit.dropdown-toggle.show,
+.btn-outline-edit:active {
+  color: #fff;
+  background-color: #71c9ce;
+  border-color: #71c9ce;
+}
+.btn-check:active + .btn-outline-edit:focus,
+.btn-check:checked + .btn-outline-edit:focus,
+.btn-outline-edit.active:focus,
+.btn-outline-edit.dropdown-toggle.show:focus,
+.btn-outline-edit:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+.btn-outline-edit.disabled,
+.btn-outline-edit:disabled {
+  color: #71c9ce;
+  background-color: transparent;
+}
