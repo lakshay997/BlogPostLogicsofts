@@ -7,7 +7,7 @@ import Footer from "./myComponents/Footer";
 
 function App() {
   const [posts, setPosts] = useState([])
-const [postsPerPage] = useState(10)
+const [postsPerPage] = useState(12)
 
 
 const getPosts = async () => {

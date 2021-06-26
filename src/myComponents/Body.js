@@ -7,7 +7,7 @@ export const Body = () => {
     
     const [posts, setPosts] = useState([])
     const [currentPage] = useState(1)
-    const [postsPerPage] = useState(10)
+    const [postsPerPage] = useState(12)
 
     const getPosts = async () => {
         const response = await fetch(info);
